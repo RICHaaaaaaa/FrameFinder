@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/cards.css");
+@import url("components/about.css");
+
+body
+{
+    font-family: 'lora', serif;
+    font-size: 18px;
+    margin: 0px;
+    background-color: #222222;
+}
+h1,h2,h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .social-icons a, .app-download a {
+    margin-right: 15px;
+  }
+  
+  .social-icons img, .app-download img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .app-download a:last-child {
+    margin-right: 0;
+  }
+ 

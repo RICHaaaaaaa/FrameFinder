@@ -1,0 +1,29 @@
+.about{
+    margin: 20px auto;
+    text-align: center;
+    background-color: grey;
+    width: 800px;
+    padding: 5px ;
+    border-radius: 15px;
+}
+
+.about h3{
+    font-size: 30px;
+    font-family: 'Kalam', cursive;
+}
+
+@media (max-width: 960px) {
+    .about {
+        width: 700px;
+        }
+    }
+    @media (max-width :720px) {
+        .about {
+            width: 500px;
+        }
+    }
+    @media (max-width:540px) {
+        .about{
+            width: 300px;
+        }
+    }

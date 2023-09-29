@@ -1,0 +1,28 @@
+.card-white {
+ width: 550px;
+ height: 250px;
+ box-shadow: 10px 20px 30px rgba(0,0,0,0.3);
+ padding: 20px 15px;
+ margin-right: 20px;
+ margin-left: 20px;
+ background-color: white;
+ margin-bottom: 15px;
+ margin-top: 15px;
+ border-radius: 15px;
+ display: flex;
+ justify-content: space-around;
+}
+
+p{
+    margin-bottom: 35px;
+}
+
+.card-white img {
+    object-fit: cover;
+    width: 280px;
+}
+
+#profiles{
+    display: flex;
+    flex-wrap: wrap;
+}
